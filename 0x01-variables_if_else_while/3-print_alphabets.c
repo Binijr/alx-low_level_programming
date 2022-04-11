@@ -12,9 +12,9 @@ int c;
 for (c = 0; c < 26; ++c)
 putchar('a' + c);
 for (c = 0; c < 26; ++c)
-putchat ('A' + c);
+putchar ('A' + c);
 
-putchat('\n');
+putchar('\n');
 
 return (0);
 }
