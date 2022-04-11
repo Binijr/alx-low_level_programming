@@ -4,7 +4,7 @@
  * main - entry point
  *
  * Description: Print lower case alphabet backwards
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
