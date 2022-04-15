@@ -31,7 +31,7 @@ int main(void)
 				if (i != 100)
 					putchar(' ');
 				else
-					putchar(\n');
+					putchar('\n');
 	}
 			return (0);
 }
