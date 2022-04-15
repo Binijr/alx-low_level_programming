@@ -1,4 +1,4 @@
-#i#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints fizz for int divisible by 3 and Buzz for 5
