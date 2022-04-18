@@ -7,14 +7,11 @@
  *Return: void that means our answer is correct
  */
 
-int _strlenchar *s)
+int _strlen(char *s)
 {
-int u;
+int count = 0;
 
-u = 0;
-while (s[u] != '\0')
-{
-u++;
-}
-return (u);
+while (*(s + count) != '\0')
+count++;
+return (count);
 }
