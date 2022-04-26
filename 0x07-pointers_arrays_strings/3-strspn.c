@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * _strspn - gets the length of a prefix substring.
  * @s: initial segment.
@@ -20,9 +19,9 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				bool = 0;
 				break;
-			}
 		}
 	}
+	if (bool == 1)
 		break;
 }
 return (i);
