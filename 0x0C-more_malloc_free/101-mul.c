@@ -80,7 +80,6 @@ int _checknum(char *argv[], int n)
  * @argv: arguments vector.
  *
  * Return: 0 - success.
- *
  */
 int main(int argc, char *argv[])
 {
