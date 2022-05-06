@@ -4,8 +4,8 @@
 #include <ctype.h>
 
 /**
- *_is_zero - determines if any number is zero
- *@argv: argument vector.
+ * _is_zero - determines if any number is zero
+ * @argv: argument vector.
  *
  * Return: no return.
  */
@@ -69,6 +69,7 @@ int _checknum(char *argv[], int n)
 			printf("Error\n");
 			exit(98);
 		}
+
 	return (ln);
 }
 
@@ -83,7 +84,7 @@ int _checknum(char *argv[], int n)
  */
 int main(int argc, char *argv[])
 {
-int ln1, ln2, lnout, add, addl, i, j, k, ca;
+	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
 	if (argc != 3)
